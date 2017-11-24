@@ -14,7 +14,7 @@
 	if (isset($_SESSION['username'])) {
 		header ('Location: shell.php');
 	
-	// if the database has not yet been installed
+	// if the database has not been installed yet
 	} else if (!file_exists('database/config.php')) {
 		header ('Location: install.php');
 	
