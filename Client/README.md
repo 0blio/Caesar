@@ -8,5 +8,3 @@ Linux installation:
 Windows installation:
     Download the library from https://pypi.python.org/pypi/request
     Install
-
-
