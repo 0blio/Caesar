@@ -7,4 +7,4 @@ client.py requires "requests" python library in order to be run.
 
 ### Windows installation:
 1. Download the library from https://pypi.python.org/pypi/request
-2. Install
+2. Start the executable
