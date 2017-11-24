@@ -1,10 +1,10 @@
 client.py requires "requests" python library in order to be run.
 
-Linux installation:
-    git clone git://github.com/requests/requests.git
-    cd requests
-    pip install
+### Linux installation:
+1. git clone git://github.com/requests/requests.git
+2. cd requests
+3. pip install
 
-Windows installation:
-    Download the library from https://pypi.python.org/pypi/request
-    Install
+### Windows installation:
+1. Download the library from https://pypi.python.org/pypi/request
+2. Install
