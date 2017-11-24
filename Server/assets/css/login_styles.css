@@ -1,0 +1,78 @@
+@CHARSET "UTF-8";
+
+* {
+	-webkit-box-sizing: border-box;
+	   -moz-box-sizing: border-box;
+	        box-sizing: border-box;
+	outline: none;
+}
+body {
+	background: #303138;
+}
+a, a:hover {
+	color: #fff;
+}
+
+form[role=login] {
+	font: 15px/1.6em Lato, serif;
+	max-width: 280px;
+	margin: 0 auto;
+	margin-top: 50px;
+	color: #767a7f;
+}
+	form[role=login] div {
+		position: relative;
+	}
+	form[role=login] span.glyphicon {
+		color: #adadad;
+	}
+	form[role=login] input,
+	form[role=login] button {
+		font-size: 16px;
+	}
+	form[role=login] input,
+	form[role=login] .input-group-addon {
+		border: none !important;
+		background: #3b4148;
+		color: #767a7f;
+		border-bottom: 1px solid #292c34;
+	}
+	form[role=login] .input-group-addon {
+		background: #363b41;
+		font-size: 20px;
+		color: #606468;
+	}
+	
+	form[role=login] > section {
+		text-align: center;
+		margin: 15px 0;
+	}
+		form[role=login] > section span {
+			color: #767a7f;
+		}
+	
+	form[role=login] button {
+		background: #c0392b;
+		border: none;
+		text-shadow: 1px 1px 1px #be3e6e;
+		font-size: 20px;
+		margin-top: 25px;
+		border-radius: 2px;
+	}
+	form[role=login] button:hover {
+		background: #e74c3c;
+	}
+	form[role=login] input[type=text]:focus,
+	form[role=login] input[type=password]:focus {
+	    background: #292c34;
+		border: none;
+		box-shadow: none;
+	}
+
+.form-group {
+	margin: 10px 0;
+}
+	.form-group input,
+	.form-group .input-group-addon {
+		border-radius: 2px;
+	}
