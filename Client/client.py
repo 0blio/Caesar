@@ -13,7 +13,7 @@ from subprocess import *
 from requests.utils import quote
 
 # Replace with your URL/IP
-caesar_folder = 'localhost/caesar'
+caesar_folder = 'REPLACE_ME'
 
 def md5 (string):
 	m = hashlib.md5()
