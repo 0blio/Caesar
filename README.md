@@ -16,3 +16,6 @@ Caesar is an HTTP-based RAT that allows you to remotely control devices directly
 
 ## Documentation and examples
 Please refer to the [wiki](https://github.com/0blio/caesar/wiki).
+
+## Contacts
+miki.cisternino@gmail.com
