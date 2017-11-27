@@ -1,4 +1,4 @@
-# caesar
+# caesarRAT
 Caesar is an HTTP-based RAT that allows you to remotely control devices directly from your browser.
 
 ## Features
