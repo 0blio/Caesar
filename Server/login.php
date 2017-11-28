@@ -37,7 +37,6 @@
 
 				if ($valid_credentials) {
 					$_SESSION['username'] = $username;
-					echo $db_password;
 					header ('Location: shell.php');
 				} else {
 					$error = '<p id="error">Invalid credentials!</p>';
