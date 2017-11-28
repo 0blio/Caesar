@@ -42,6 +42,7 @@ assume no liability and are not responsible for any misuse or damage caused by t
 
 		<span id="software"><span style="color:#EF2929">Caesar</span> <span style="color:#729FCF">» </span></span>
 		<input id="input" type="text" name="command" autofocus contenteditable="true">
+		<input id="csrf_token" style="display:none" value="<?php echo $_SESSION['csrf_token']; ?>">
 		<span id="selected_target" style="display:none"></span>
 		<span id="shell" style="display:none">false</span>
 
