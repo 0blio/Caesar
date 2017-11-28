@@ -26,7 +26,7 @@
 		// Add country
 
 	} else if ($command === 'whoami') {
-		$output = $_SESSION['username'];
+		$output = htmlspecialchars($_SESSION['username']);
 
 	} else if ($command == 'date') {
 		$output = date('d/m/Y, H:i:s');
