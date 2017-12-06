@@ -116,6 +116,11 @@
 			try {
 				// Writing DB credential in database/config.php
 				$config = fopen ('database/config.php', 'w');
+				
+				// If the user doesn't have write permissions on the directory
+				if (!$config)
+					throw new Exception();
+				
 				$text = '<?php $hostname = "localhost"; $username = "' . $db_user . '"; $password = "' . $db_password . '"; $database = "' . $db_name . '";';
 				fwrite ($config, $text);
 				fclose ($config);
