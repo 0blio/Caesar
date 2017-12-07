@@ -137,7 +137,7 @@
 				// Redirect user to login page
 				header('Refresh: 3; URL=login.php');
 			} catch (Exception $e) {
-				$message = '<p id="error">Error writing configuration file!</p>';
+				$message = '<p id="error">Error writing configuration file. Check if you have write permission.</p>';
 				include 'templates/install.template.php';
 				die();
 			}		
