@@ -109,7 +109,7 @@
 				$db -> table ('users') -> insert (['username' => $username, 'password' => password_hash ($password, PASSWORD_BCRYPT)]); 
 			} catch (Exception $e) {
 				$message = '<p id="error">Database error!</p>';
-				include 'templates/install.template.php';
+				include_once 'templates/install.template.php';
 				die();
 			}
 
@@ -126,7 +126,7 @@
 				fclose ($config);
 
 				$message = '<p id="success">Installation completed successfully! You will be redirected to the login page in a few seconds..</p>';
-				include 'templates/install.template.php';
+				include_once 'templates/install.template.php';
 
 				// Deleting install.template.php
 				unlink ('templates/install.template.php');
@@ -138,7 +138,7 @@
 				header('Refresh: 3; URL=login.php');
 			} catch (Exception $e) {
 				$message = '<p id="error">Error writing configuration file. Check if you have write permission.</p>';
-				include 'templates/install.template.php';
+				include_once 'templates/install.template.php';
 				die();
 			}		
 		} else {
@@ -146,4 +146,4 @@
 		}
 	}
 
-	include 'templates/install.template.php';
+	include_once 'templates/install.template.php';
