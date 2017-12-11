@@ -83,7 +83,7 @@ function check_task_output (task_id, target, timeout) {
 					$("html, body").animate({ scrollTop: $(document).height() }, "fast"); 
 				});
 
-			} else if (n_attempts_check_task_output == 15) {
+			} else if (n_attempts_check_task_output == 20) {
 				// The target is probably disconnected
 				result = '[<span style="color:#f39c12;">!</span>] Connection lost<br>';
 				$("#output").append(result);
