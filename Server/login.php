@@ -48,9 +48,10 @@
 			$error = '<p id="error">Fill out all fields!</p>';
 		}
 
-	} else {
+	} 
+
+	if (!isset($error))
 		$error = '';
-	}
 
 	include 'templates/login.template.php';
 ?>
