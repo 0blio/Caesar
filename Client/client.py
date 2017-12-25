@@ -62,17 +62,6 @@ while 1:
 	if subprocesses !=  []:
 		non_terminated = []
 		for process in subprocesses:
-
-			"""
-			print process[0] 
-			if process[0].poll() != None:
-				print 'Il processo sta venendo eseguito.'
-			else:
-				print 'Esecuzione in corso.'
-			print 'Valore poll: ' + str(process[0].poll())
-			a = raw_input ("Premi invio per continuare..")
-			"""
-
 			# If process has terminated:
 			if process[0].poll() != None:
 				out = process[0].stdout.read()
