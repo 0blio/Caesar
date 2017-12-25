@@ -17,6 +17,7 @@
 	include 'PicoDb/Builder/InsertBuilder.php';
 	include 'PicoDb/Builder/UpdateBuilder.php';
 	include 'PicoDb/Builder/ConditionBuilder.php';
+	include 'PicoDb/Builder/OrConditionBuilder.php';
 
 	// Drivers
 	include 'PicoDb/Driver/Base.php';
