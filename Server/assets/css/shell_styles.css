@@ -1,0 +1,94 @@
+/*
+	CAESAR
+
+	Author : Michele '0blio' Cisternino
+	Email  : miki.cisternino@gmail.com
+	Github : https://github.com/0blio
+
+	This project is released under the GPL 3 license. 	
+*/
+
+body {  
+	background-color: black;
+	color: white;
+	font-family: monaco, Consolas, Lucida Console, monospace; 
+	font-size: 12px;
+	cursor: default;
+}
+
+#disclaimer {
+	color: #f39c12;
+	font-family: monaco, Consolas, Lucida Console, monospace; 
+}
+
+.selected_target { color: green; }
+.directory { color: #729FCF; }
+
+#input { 
+	background-color: black;
+	color: inherit;
+	font-family: inherit;
+	border: none;
+	outline: none;
+	font-size: inherit;
+	cursor: default;
+	width: 80%;
+}
+
+table {
+	font-size: inherit;
+	border-collapse: collapse;
+	display: inline-block;
+	table-layout:fixed;
+}
+
+thead, th {
+	text-align: left;
+	color: #8e44ad;
+	padding-right: 30px;
+}
+
+td {
+	vertical-align: top;
+	padding-right: 30px;
+	max-width: 30%;
+}
+
+#output {
+	display: inline;
+}
+
+/* Scrollbar background */
+::-webkit-scrollbar {
+  width: 8px; 
+  height: 8px;
+  background-color: black;
+  -webkit-border-radius: 100px;
+}
+
+/* Scrollbar selector */
+::-webkit-scrollbar-thumb:vertical {
+  background: #34495e;
+  -webkit-border-radius: 100px; 
+}
+
+/* Scrollbar selector active */
+::-webkit-scrollbar-thumb:vertical:active {
+  background: #2c3e50; 
+  -webkit-border-radius: 100px;
+}
+
+/* Scrollbar selector */
+::-webkit-scrollbar-thumb:horizontal {
+  background: #34495e;
+  -webkit-border-radius: 100px; 
+}
+
+/* Scrollbar selector active */
+::-webkit-scrollbar-thumb:horizontal:active {
+  background: #2c3e50; 
+  -webkit-border-radius: 100px;
+}
+
+background: linear-gradient(45deg, white, silver);
+min-height: 100%;
