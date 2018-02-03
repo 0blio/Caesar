@@ -114,7 +114,10 @@ while 1:
 					output = e.strerror + "\n"
 
 			else:
-				process = subprocess.Popen ([command], stdout=subprocess.PIPE, stderr=subprocess.PIPE, stdin=subprocess.PIPE, shell=True, close_fds=True)
+				if os.name == 'nt':
+					process = subprocess.Popen (command.split(), stdout=subprocess.PIPE, stderr=subprocess.PIPE, stdin=subprocess.PIPE, shell=True)
+				else:
+					process = subprocess.Popen ([command], stdout=subprocess.PIPE, stderr=subprocess.PIPE, stdin=subprocess.PIPE, shell=True, close_fds=True)
 
 				# Time for the subprocess to spawn
 				sleep (0.5)
