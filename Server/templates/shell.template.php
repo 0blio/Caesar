@@ -14,6 +14,7 @@
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
 		<link rel="stylesheet" type="text/css" href="assets/css/shell_styles.css" />
+		<link rel='shortcut icon' type='image/x-icon' href='../assets/images/favicon.ico' />
 		<script src="assets/jquery/jquery.min.js"></script>
 		<script src="helpers/client/html.js"></script>
 	</head>
