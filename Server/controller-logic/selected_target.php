@@ -54,7 +54,7 @@
 
 		if (count($output) > 0) 
 			$output = to_html_table ($output, ['Command', 'Output', 'Insertion time', 'Time run']);
-	    else
+	    	else
 			$output = system_message ('Empty history', 'notification');
 
 	} else if ($command == 'clear history') {
