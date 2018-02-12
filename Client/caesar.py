@@ -100,7 +100,7 @@ while 1:
 
 			# If the user want a remote pseudo-connection 
 			if command == 'connect':
-				delay = 0.5
+				delay = 1
 				output = 'connected'
 	
 			elif command == 'exit':
