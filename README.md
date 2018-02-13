@@ -12,7 +12,7 @@ Caesar is an HTTP-based RAT that allows you to remotely control devices directly
 * Mysql
 * Python
 
-![screen](https://github.com/0blio/caesar/blob/master/screens/1.png)
+![screen](http://oblio.altervista.org/caesar/screens/home.png)
 
 ### Documentation and examples
 Please refer to the [wiki](https://github.com/0blio/caesar/wiki).
