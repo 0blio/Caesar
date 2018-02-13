@@ -19,3 +19,6 @@ Please refer to the [wiki](https://github.com/0blio/caesar/wiki).
 
 ## Contacts
 Email: miki.cisternino@gmail.com
+
+## Save an hacker from starvation by making a donation
+[![Foo](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://www.paypal.me/0blio)
