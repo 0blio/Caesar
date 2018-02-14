@@ -33,8 +33,8 @@
 			</pre>
 			
 			<pre style="color:#bdc3c7; font-family:monaco">
-Legal disclaimer: Usage of Caesar for attacking targets without prior mutual consent is illegal. It 
-is the end user's responsibility to obey all applicable local, state and federal laws. Developers 
+Legal disclaimer: Usage of Caesar for attacking targets without prior mutual consent is illegal. 
+It is the end user's responsibility to obey all applicable local, state and federal laws. Developers 
 assume no liability and are not responsible for any misuse or damage caused by this software.
 			</pre>
                                                   
