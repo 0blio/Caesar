@@ -4,7 +4,7 @@ Caesar is an HTTP-based RAT that allows you to remotely control devices directly
 ### Features
 * Easy to install and easy to use
 * It can be installed on any free web-hosting service (so you don't need port forwarding)
-* Being based on database you can queue the tasks that the targets will perform once online
+* Database driven. You can queue tasks to be performed whenever the target is online and check the results.
 * It only requires the browser to run. So, once you setted up the server, you can control it from every operating system (as well from Android, iOS and live operating systems like Tails OS) 
 
 ### Requirements
