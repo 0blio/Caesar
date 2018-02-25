@@ -8,7 +8,7 @@
     $task_id = $_POST['task_id'];
 
     // If the user is not trying to alter the unique id (checking if the md5 string is valid)
-    if (!preg_match('/[^A-Za-z0-9]/', $unique_id) || strlen($unique_id) != 32) {
+    if (!preg_match('/[^A-Za-z0-9]/', $unique_id) and strlen($unique_id) == 32) {
       include '../database/connection.php';
 
       // Checking if the request is valid
