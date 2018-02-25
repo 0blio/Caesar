@@ -51,12 +51,14 @@
 					('h', 'select target ID', 'Select target'),
 					('o', 'shell', 'Obtain a pseudo-shell on the remote host'),
 					('o', 'back', 'Deselect target'),
+					('o', 'delete files', 'Delete from the server all the files downloaded from the target'),
 					('o', 'history', 'Get the history of the previously executed commands'),
 					('o', 'clear history', 'Clear history of the previously executed commands'),
 					('o', 'schedule COMMAND', 'Schedule a task for the target'),
 					('o', 'queue', 'Get the queue of commands to be executed on the target'),
 					('o', 'flush queue', 'Flush the target queue'),
 					('h', 'help', 'Get a list of commands'),
+					('o', 'files', 'Get a list of files downloaded from the target'),
 					('o', 'help', 'Get a list of commands executable on the target');
 
 					CREATE TABLE `targets` (

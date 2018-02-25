@@ -124,13 +124,16 @@
 		}
 
 	} else if (startswith ($command, 'delete target')) {
+
 		$arguments = get_arguments ('delete target', $command);
 
 		if (count($arguments) == 1) {
 			$id = $arguments[0];
 
 			if (only_digits($id)) {
+				$target_unique_id = $db -> table ('targets') -> eq ('id', $id) -> columns ('unique_id') -> findAll();
 				$removed = $db -> table ('targets') -> eq ('id', $id) -> remove();
+				rrmdir ('files/' . $target_unique_id[0]['unique_id']);
 
 				if ($removed)
 					$output = system_message ('Target ' . htmlspecialchars($id) . ' removed successfully', 'removed');
@@ -139,6 +142,7 @@
 
 			} else if ($id == '*') {
 				$removed = $db -> table ('targets') -> remove();
+				rrmdir ('files'); mkdir ('files', 0777);
 				$output = system_message('All targets removed successfully', 'removed');
 
 			} else {
@@ -178,8 +182,6 @@
 
 		$output .= '<br/>';
 
-		//  Deleting files
-		include ('helpers/server/system.php');
 		rrmdir (dirname(__DIR__));
 		$output .= system_message ('Files removed successfully.', 'removed');
 
