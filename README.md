@@ -21,7 +21,7 @@ Please refer to the [wiki](https://github.com/0blio/caesar/wiki).
 Do you want to help? You can translate the payload to your preferite programming language or improve the shell [CSS](https://github.com/0blio/caesarRAT/blob/master/Server/assets/css/shell_styles.css) in order to make it responsive on mobile phones.
 
 ### Contacts
-Email: miki.cisternino@gmail.com
+Emails: miki.cisternino@gmail.com, miki.cisternino@protonmail.com
 
 ### Save an hacker from starvation by making a donation
 [![Foo](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://www.paypal.me/0blio)
