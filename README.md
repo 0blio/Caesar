@@ -1,5 +1,6 @@
 <h1 align="center">
   <a href="https://github.com/0blio/Caesar"><img src="https://raw.githubusercontent.com/0blio/Caesar/master/Server/assets/images/logo.png" width=250 alt="Caesar"></a>
+  <h4 align="center">HTTP Remote Administration Tool</h4>
 </h1>
 
 Caesar is an HTTP-based RAT that allows you to remotely control devices directly from your browser.
