@@ -1,7 +1,7 @@
 
 <h1 align="center">
   <br>
-  <a href="https://github.com/0blio/Caesar"><img src="https://raw.githubusercontent.com/0blio/Caesar/master/Server/assets/images/logo.png" width=100 alt="Arjun"></a>
+  <a href="https://github.com/0blio/Caesar"><img src="https://raw.githubusercontent.com/0blio/Caesar/master/Server/assets/images/logo.png" width=100 alt="Caesar"></a>
   <br>
   Arjun
   <br>
