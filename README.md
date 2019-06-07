@@ -1,10 +1,5 @@
-
 <h1 align="center">
-  <br>
   <a href="https://github.com/0blio/Caesar"><img src="https://raw.githubusercontent.com/0blio/Caesar/master/Server/assets/images/logo.png" width=250 alt="Caesar"></a>
-  <br>
-  Caesar
-  <br>
 </h1>
 
 <h4 align="center">HTTP Remote Administration Tool</h4>
