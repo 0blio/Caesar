@@ -6,6 +6,8 @@
 
 Caesar is an HTTP-based RAT that allows you to remotely control devices directly from your browser.
 
+![screen](http://oblio.altervista.org/caesar/screens/home.png)
+
 ### Features
 * Easy to install and easy to use
 * It can be installed on any free web-hosting service (so you don't need port forwarding)
@@ -16,8 +18,6 @@ Caesar is an HTTP-based RAT that allows you to remotely control devices directly
 * PHP 5.6+
 * Mysql
 * Python
-
-![screen](http://oblio.altervista.org/caesar/screens/home.png)
 
 ### Documentation and examples
 Please refer to the [wiki](https://github.com/0blio/caesar/wiki).
