@@ -1,4 +1,14 @@
-# caesarRAT
+
+<h1 align="center">
+  <br>
+  <a href="https://github.com/0blio/Caesar"><img src="https://raw.githubusercontent.com/0blio/Caesar/master/Server/assets/images/logo.png" alt="Arjun"></a>
+  <br>
+  Arjun
+  <br>
+</h1>
+
+<h4 align="center">HTTP Remote Administration Tool</h4>
+
 Caesar is an HTTP-based RAT that allows you to remotely control devices directly from your browser.
 
 ### Features
