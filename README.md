@@ -4,8 +4,8 @@
 </h1>
 
 <p align=center>
-  <a href=""><img alt="Release" src="https://img.shields.io/badge/Release-1.1.0-blue.svg"/></a>
-  <a href=""><img alt="Release" src="https://img.shields.io/badge/God-Not%20found-red.svg"/></a>
+  <a href="https://github.com/0blio/Caesar"><img alt="Release" src="https://img.shields.io/badge/Release-1.1.0-blue.svg"/></a>
+  <a href="https://github.com/0blio/Caesar"><img alt="Release" src="https://img.shields.io/badge/God-Not%20found-red.svg"/></a>
 </p>
 
 ![screen](http://oblio.altervista.org/caesar/screens/home.png)
