@@ -1,9 +1,11 @@
-<p align="center">
+<h1 align="center">
   <a href="https://github.com/0blio/Caesar"><img src="https://raw.githubusercontent.com/0blio/Caesar/master/Server/assets/images/logo.png" width=250 alt="Caesar"></a>
   <h4 align="center">HTTP Remote Administration Tool</h4>
-  
-  <img alt="Release" src="https://img.shields.io/badge/Release-1.1.0-blue.svg"/>
-  <img alt="Release" src="https://img.shields.io/badge/God-Not%20found-red.svg"/>
+</h1>
+
+<p align=center>
+  <a href=""><img alt="Release" src="https://img.shields.io/badge/Release-1.1.0-blue.svg"/></a>
+  <a href=""><img alt="Release" src="https://img.shields.io/badge/God-Not%20found-red.svg"/></a>
 </p>
 
 ![screen](http://oblio.altervista.org/caesar/screens/home.png)
