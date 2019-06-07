@@ -3,9 +3,9 @@
   <h4 align="center">HTTP Remote Administration Tool</h4>
 </h1>
 
-Caesar is an HTTP-based RAT that allows you to remotely control devices directly from your browser.
-
 ![screen](http://oblio.altervista.org/caesar/screens/home.png)
+
+Caesar is an HTTP-based RAT that allows you to remotely control devices directly from your browser.
 
 ### Features
 * Easy to install and easy to use
